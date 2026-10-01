@@ -8,8 +8,7 @@
 ```
 git --version
 ```
-
-![![Uploading Снимок экрана 2026-10-01 105108.png…]]
+<img width="879" height="113" alt="git_version" src="https://github.com/user-attachments/assets/0e7a9358-7098-42d3-adf2-2d1b826c7a2d" />
 
 Если Git установлен на компьютер, вы увидите его текущую версию.
 Программа использует мнемонические команды, которые легко запомнить, если знать  
@@ -28,15 +27,22 @@ git --version
 git начнёт отслеживать изменения
 * В папке создаётся скрытая папка .git
 
+<img width="825" height="154" alt="git_init" src="https://github.com/user-attachments/assets/a8e0e2ed-97fb-4276-934a-967e4a3fc039" />
+
 
 ***Команда git status*** 
 Показывает текущее состояние гита, есть
 ли изменения, которые нужно закоммитить
 
+<img width="911" height="81" alt="git status" src="https://github.com/user-attachments/assets/6b70bbae-2835-4aa6-9efa-e43ab6f1c9b8" />
+
+
 ***Команда git add***
 * добавляет содержимое рабочего каталога
 в индекс (staging area) для последующего коммита. Эта команда дается после добавления
 файлов. Писать название целиком не обязательно: терминал дозаполнит данные автоматически.
+
+<img width="971" height="596" alt="git add" src="https://github.com/user-attachments/assets/21ebbdcd-6641-46d0-84a8-6ae7be115fc1" />
 
 
 ***Команда git commit***
@@ -46,11 +52,16 @@ git начнёт отслеживать изменения
 Команда ***git commit*** берёт все данные, добавленные в индекс с помощью ***git add***, и сохраняет их
 слепок во внутренней базе данных, а затем сдвигает указатель текущей ветки на этот слепок.
 
+<img width="948" height="625" alt="git commit" src="https://github.com/user-attachments/assets/18cc5d08-219e-4e92-8f1f-ca3c1f7ed229" />
+
 ***Команда git log***
 * Журнал изменений
 * Перед переключением версии файла в Git
 используйте команду git log, чтобы увидеть
 количество сохранений
+
+<img width="956" height="153" alt="git log" src="https://github.com/user-attachments/assets/d675548a-3284-405a-950b-381c54a95cf9" />
+
 
 ***Команда git checkout*** 
 * Переключение между версиями.
@@ -59,12 +70,23 @@ git начнёт отслеживать изменения
 в тот, где работаем, при помощи команды
 ***git checkout master***.
 
+<img width="868" height="120" alt="git checkout list" src="https://github.com/user-attachments/assets/2b6001e2-eb51-446b-a8cb-7f086537e181" />
+
 ***Команда git diff***
 * Показывает разницу между текущим файлом
 и сохранённым
 * Перед переключением версии файла в Git
 используйте команду git log, чтобы увидеть
 количество сохранений
+
+***Команда git merge**** 
+* Соединяет ветки с друг другом
+
+<img width="738" height="127" alt="git merge" src="https://github.com/user-attachments/assets/7e67d3c7-92e1-4d55-a52a-9d8c04903b51" />
+
+* Могут быть ошибки, конфликт между строками
+
+<img width="926" height="916" alt="git merge ошибка" src="https://github.com/user-attachments/assets/f59cc744-3e86-4208-adfb-bb8c47323cce" />
 
 ***Синтаксис языка Markdown.*** 
 * Жирный текст — * 
@@ -74,7 +96,8 @@ git начнёт отслеживать изменения
 * Показать уровень заголовка —
 подчеркивание знаками = или **** 
 * Нумерованные Списки — обозначаются
-обычными цифрами 1, 2, 3 
+обычными цифрами 1, 2, 3
+
 * Ненумерованные Списки — ***обозначаются
 *знаками в начале строки*** 
 * Вложенные Списки — выполняем отступы
